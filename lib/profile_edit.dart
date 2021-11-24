@@ -39,14 +39,7 @@ class _Profile_editState extends State<Profile_edit> {
               Text("Great you are almost done !", style: TextStyle(fontSize: 11, color: Color(0xffa6a6a6)),),
 
 
-              // Container(
-              //   decoration: BoxDecoration(
-              //     border: Border.all(color: Colors.black, width: 2),
-              //     borderRadius: BorderRadius.circular(5)
-              //   ),
-              //   height:  MediaQuery.of(context).size.height * 0.2,
-              //   width: MediaQuery.of(context).size.width * 0.3,
-              // )
+              SizedBox(height: MediaQuery.of(context).size.height * 0.04,),
 
               CircleAvatar(
                 radius: 50,
