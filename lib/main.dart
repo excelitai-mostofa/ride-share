@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ride_share/profile_edit.dart';
 
+import 'tripReview.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Profile_edit(),
+      home: TripPreview(),
     );
   }
 }
